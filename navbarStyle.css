@@ -1,0 +1,341 @@
+.nav-link {
+  margin: 0 10px;
+}
+.navbar-brand {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+.home-page-navbar-lists {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.navbar-logo-name {
+  font-size: 2rem !important;
+}
+
+.home-page-navbar-lists a {
+  position: relative;
+  display: inline-block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.home-page-navbar-lists a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ffbd39; /* Use any color you want */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  border-radius: 25px;
+}
+
+.home-page-navbar-lists a:hover::after {
+  transform: scaleX(1);
+}
+.home-page-navbar-lists a:hover {
+  color: #ffbd39; /* Change text color on hover */
+}
+
+.mode-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: auto;
+  color: inherit;
+}
+
+/* -- -------------------home page starting------------------------------------------- */
+.home-page-sec-1-left-col-1-greeting-msg {
+  font-size: initial;
+  font-weight: 400;
+}
+.home-page-sec-1-left-col-1-greeting-msg,
+.home-page-sec-1-left-col-1-specification-name,
+.home-page-sec-1-left-col-1-intro {
+  color: whitesmoke;
+}
+
+/* .home-page-sec-1-left-col-1-specification-name {
+  font-size: bold;
+  line-height: inherit;
+} */
+.home-page-sec-1-left-col-1-specification-subject {
+  color: #ffbd39;
+}
+.home-page-sec-1-left-col-1-intro {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(91, 91, 91);
+}
+
+.home-page-sec-1-left-col-1-btns a {
+  font-size: initial;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+#myrole {
+  color: #ffbd39;
+}
+/* -------------------home page ending------------------------------------------- */
+/* ----------------------about sections starts-------------------------- */
+.about-page-right-col-h1 {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.about-page-right-col-p-about-intro {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  font-weight: 400;
+}
+.personal-info .label {
+  font-weight: 700;
+  min-width: 150px;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+
+.personal-info .value {
+  font-weight: 400;
+  color: #ccc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------------about section ends-------------------------- */
+/* --------------------------resume section start---------------------------- */
+.resume-title {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.resume-subtitle {
+  /* max-width: 600px; */
+  margin: 10px auto 40px;
+  font-size: 1.2rem;
+  color: #ccc;
+  /* color: rgb(153, 153, 153); */
+}
+.card {
+  background-color: #1e1e1e !important;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card h5 {
+  font-weight: bold;
+  color: #f9a825;
+}
+.card h4 {
+  color: #fff;
+  margin-top: 10px;
+}
+.card small {
+  letter-spacing: 1px;
+  color: #aaa;
+}
+.card hr {
+  color: #e7cfcf !important;
+}
+.internship-work-list li {
+  color: #aaa;
+}
+.internship-work-list {
+  color: #aaa;
+}
+
+/* -------------------------------resume section ends---------------------- */
+/* <!-- -------------------------------my skills section start---------------------------------------- --> */
+.skills-title {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.title-style {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/* --------------------my skills section ends------------------------------ */
+/* ---------------------contact me section start------------------------------ */
+.responsive-iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+.conatct-me-section-heading-top {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.conatct-me-section-heading {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 3rem;
+  /* padding-top: 20px; */
+}
+
+.circle-shape {
+  width: 100px;
+  height: 100px;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-shape i {
+  font-size: 24px;
+  color: #f9a825;
+}
+.cricle-shape-title {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: normal;
+  margin-bottom: 0;
+}
+.cricle-shape-title-address {
+  color: #727070;
+  font-weight: 400;
+}
+.circle-shape-info-detail {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.contact-section-left-col1-inner-div {
+  width: 100%;
+}
+.contact-section-right-col2-outer-div {
+  background-color: #000000;
+  /* padding-top: 20px; */
+  /* padding-bottom: 30px; */
+}
+.contact-section-right-col2-input-boxes input {
+  border: 1px solid rgb(162, 160, 160);
+  background-color: transparent;
+  min-height: 45px;
+  border-radius: 2px;
+}
+
+.contact-section-right-col2-input-boxes input:hover {
+  border: 1px solid #f9a825;
+}
+.contact-section-right-col2-text-area-struture textarea:hover {
+  border: 1px solid #f9a825;
+}
+.contact-section-right-col2-input-boxes input::placeholder {
+  padding-left: 5px;
+  color: #495057;
+  font-weight: bold;
+}
+.contact-section-right-col2-text-area-struture textarea {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid rgb(162, 160, 160);
+  background-color: transparent;
+  min-height: 45px;
+  border-radius: 2px;
+}
+.contact-section-right-col2-text-area-struture textarea::placeholder {
+  padding-left: 5px;
+  color: #495057;
+  font-weight: bold;
+}
+.contact-section-right-col2-button button {
+  background: #ffc200;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  padding: 15px 40px;
+  font-size: 1rem;
+}
+.contact-section-right-col2-button button:hover {
+  background-color: #474559;
+  color: #ffffff;
+}
+/* ------------------------conatct me section ends---------------------- */
+.copy-right {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", Arial, sans-serif;
+
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .home-page-sec-1-left-col-1-specification-name {
+    margin-top: 8%;
+  }
+}
+
+/* --- Fixed Navbar Correction --- */
+nav,
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  overflow-x: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Prevent horizontal scroll */
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add space below fixed navbar */
+body {
+  padding-top: 70px;
+}
+
+/* Responsive navbar tweaks */
+@media (max-width: 768px) {
+  nav,
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul,
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav ul li,
+  .navbar ul li {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+

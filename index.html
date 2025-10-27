@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="navbarStyle.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+VIC+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+VIC+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <!-- aos animation css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <!-- ---------------google icon cdn link------------------- -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body class="bg-black" onload="getData()">
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+          <div class="container px-5">
+            <a class="navbar-brand navbar-logo-name" href="#">Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav home-page-navbar-lists">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#about-sec">About</a>
+                <a class="nav-link" href="#skills">skills</a>
+                <a class="nav-link" href="#resume">Resume</a>
+                <a class="nav-link" href="#contact-me">Contact</a>
+              </div>
+            </div>
+            <!-- <button class="mode-toggle-btn" title="Toggle Light/Dark Mode">
+              🌙
+            </button> -->
+          </div>
+        </nav>
+      </div>
+      <!-- -------------------navbar ends here----------------------------------------------- -->
+      <!-- -------------------home page starting------------------------------------------- -->
+      <section id="home"
+        class="min-vh-100 d-lg-flex justify-content-center align-items-center"
+      >
+        <div class="container">
+          <div class="row p-3">
+            <div
+              class="col-lg-7 col-md-12 col-12 home-page-sec-1-left-col d-flex align-items-center"
+            >
+              <div class="p-2 p-sm-3 p-md-4 p-lg-5">
+                <h5 class="home-page-sec-1-left-col-1-greeting-msg">
+                  Welcome to my portfolio website!
+                </h5>
+                <h1
+                  class="home-page-sec-1-left-col-1-specification-name animated-text"
+                >
+                  I'm Prajakta <span id="myrole">UI Devloper</span>
+                </h1>
+                <p class="home-page-sec-1-left-col-1-intro">
+                  Building a successful product is a challenge. I am highly
+                  energetic in user experience design, interfaces and web
+                  development.
+                </p>
+
+                <div
+                  class="d-flex flex-wrap align-items-center gap-3 home-page-sec-1-left-col-1-btns"
+                >
+                  <a href="#" class="btn btn-warning">Hire Me</a>
+                  <a href="PRAJAKTA_RESUME.pdf" class="btn btn-warning" download="Prajakta_Pawar_Resume.pdf">Download Resume</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-5 col-md-12 col-12 mt-5 mt-lg-0 d-flex justify-content-center align-items-center"
+            >
+              <div class="w-100 text-center">
+                <img
+                  src="/images/home_page_right_img.svg"
+                  class="img-fluid"
+                  alt="Right side image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------home page ending------------------------------------------- -->
+      <!-- -----------------------about section starts------------------------------------- -->
+      <div class="container text-primary " id="about-sec">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="w-100 text-center">
+              <!-- <img
+                src="https://themewagon.github.io/clark/images/bg_1.png"
+                class="img-fluid"
+                alt="About Me Image"
+              /> -->
+
+              <img
+                src="./images/girl_img.jpg"
+                class="img-fluid"
+                alt="About Me Image"
+              />
+
+
+
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div data-aos="fade-down">
+              <h1 class="about-page-right-col-h1">About Me</h1>
+              <p class="about-page-right-col-p-about-intro">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </p>
+              <ul
+                class="personal-info text-white list-unstyled px-2 px-md-0 mt-3"
+              >
+                <li class="d-flex mb-3">
+                  <span class="label">Name :</span>
+                  <span class="value">Prajakta Pawar</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <span class="label">Date of birth :</span>
+                  <span class="value">July 20, 2002</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <span class="label">Address :</span>
+                  <span class="value">Warje Malwadi, Pune</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <span class="label">Zip code :</span>
+                  <span class="value">411058</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <span class="label">Email :</span>
+                  <span class="value">pbp042002@gmail.com</span>
+                </li>
+                <li class="d-flex mb-3">
+                  <span class="label">Phone :</span>
+                  <span class="value">+91 7498128174</span>
+                </li>
+              </ul>
+              <div class="d-flex flex-wrap align-items-center mt-5">
+                <a href="#" class="btn btn-warning rounded-pill px-4 py-3"
+                  >Get a free quote</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------about section ends-------------------------------------- -->
+      <!-- -------------------------------resume section starts from here------------------------- -->
+      <div class="container p-5" id="resume">
+        <h2 class="resume-title text-center mb-3">Resume</h2>
+        <p class="resume-subtitle text-center">
+          A concise overview of my academic background, projects, and
+          internships that define my career foundation."
+        </p>
+        <div class="row align-items-stretch" id="card-container">
+          <!-- static box 1 of education -->
+          <div class="col-md-6 resume-sec-cols d-flex ">
+            <div class="card flex-fill">
+              <h5>Education</h5>
+              <h4>Bachelor of Computer Science (B.C.S.)</h4>
+              <small>Shri Siddhivinayak Mahila Mahavidyalaya Pune University | 2020 – 2023</small>
+              <hr />
+              <h4>12th Standard (HSC)</h4>
+              <small>Maharshi Karve Stree Shikshan Sanstha| 2018-2020</small>
+              <hr />
+              <h4>10th Standard (SSC)</h4>
+              <small>Hill Range High School | 2017-2018</small>
+            </div>
+          </div>
+          <!-- static box 2 for internship -->
+          <div class="col-md-6 resume-sec-cols d-flex">
+            <div class="card flex-fill">
+              <h5>Internship</h5>
+              <h4>Frontend Developer Intern</h4>
+              <small>Brightlink InfoTechnology | 4 months </small>
+              <ul class="internship-work-list">
+                <li>Worked on responsive UI development</li>
+                <li>Hands-on experience with HTML, CSS, JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <!-- static box 3 for python course internship -->
+          <div class="col-md-6 resume-sec-cols d-flex">
+            <div class="card flex-fill">
+              <h5>Certifications / Courses</h5>
+              <h4>Python Developer Course</h4>
+              <small>Giri's Tech Hub Institute | 2025</small>
+              <p class="internship-work-list">
+                Learned Python basics, OOPs, and real-world project building
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <button
+            class="btn btn-warning"
+            data-bs-toggle="modal"
+            data-bs-target="#addBoxModal"
+          >
+            Add Project
+          </button>
+        </div>
+      </div>
+
+      <!-- model -->
+      <!-- Modal -->
+      <div class="modal fade" id="addBoxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">
+                Add New Course / Certificate / Project
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form id="addBoxForm">
+                <div class="mb-3">
+                  <label class="form-label">Project / Course / Internship</label>
+                  <input
+                    type="text"
+                    id="boxtitletype"
+                    class="form-control"
+                    placeholder="Enter course/project/internship"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Title</label>
+                  <input
+                    type="text"
+                    id="boxTitle"
+                    class="form-control"
+                    placeholder="Enter course/certificate title"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Completion Year</label>
+                  <input
+                    type="text"
+                    id="boxYear"
+                    class="form-control"
+                    placeholder="e.g. 2024"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Description</label>
+                  <textarea
+                    id="boxDescription"
+                    class="form-control"
+                    placeholder="Write short description"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-warning"
+                  id="saveBtn"
+                  onclick="saveData()"
+                >
+                  Save
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- model -->
+      <!-- -----------------------------------resume section ends here---------------------------------- -->
+      
+        </div>
+
+         <!-- -------------------------------my skills section start---------------------------------------- -->
+        <div class="container p-2" id="skills">
+          <h2 class="skills-title text-center mb-3" >My Skills</h2>
+            <div id="languageContainer" class="mt-4 row"></div>
+        </div>
+        <!-- ---------------------------------my skills section ends------------------------------- -->
+         <!-- --------------------------------contact me page------------------------------------------------ -->
+           <div class="container p-5 text-white " id="contact-me">
+                <h2 class="conatct-me-section-heading-top text-center">Contact Me</h2>
+                <div class="row mt-5">
+                  <div class="col-md-3 ">
+                   <div class="d-flex flex-column gap-4 justify-content-center align-items-center">
+                      <div class="circle-shape">
+                            <div class=""><i class="fa-solid fa-location-dot"></i></div>
+                            
+                      </div>
+                      <p class="cricle-shape-title">ADDRESS</p>
+                      <p class="cricle-shape-title-address text-center">198 West 21th Street, Suite 721 New York NY 10016</p>
+                   </div>
+                  </div>
+                  <div class="col-md-3">
+                   <div class="d-flex flex-column gap-4 justify-content-center align-items-center">
+                      <div class="circle-shape">
+                            <div class=""><i class="fa-solid fa-phone"></i></div>
+                      </div>
+                        <p class="cricle-shape-title">CONTACT NUMBER</p>
+                        <p class="circle-shape-info-detail">+ 1235 2355 98</p>
+                   </div>
+                 
+                  </div>
+                  <div class="col-md-3">
+                   <div class="d-flex flex-column gap-4 justify-content-center align-items-center">
+                      <div class="circle-shape">
+                            <div class=""><i class="fa-solid fa-paper-plane"></i></div>
+                      </div>
+                      <p class="cricle-shape-title">EMAIL ADDRESS</p>
+                      <p class="circle-shape-info-detail">pbp042002@gmail.com</p>
+                   </div>
+                   
+                  </div>
+                  <div class="col-md-3">
+                    <div class="d-flex flex-column gap-4 justify-content-center align-items-center">
+                      <div class="circle-shape">
+                            <div class=""><i class="fa-solid fa-earth-oceania"></i></div>
+                      </div>
+                      <p class="cricle-shape-title">WEBSITE</p>
+                      <p class="circle-shape-info-detail">yoursite.com</p>
+                   </div>
+                   
+                  </div>
+                </div>
+
+                <div class="row mt-4">
+                  <div class="col-md-5 contact-section-left-col1-outer-div d-flex justify-content-center align-items-center">
+                     <div class="contact-section-left-col1-inner-div">
+                        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7568.440550464305!2d73.79542964503176!3d18.473678930443114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2957c5ba7179d%3A0xba2e367d93e28853!2sWarje%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1758091268894!5m2!1sen!2sin"
+        frameborder="0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="responsive-iframe"
+      ></iframe>
+                     </div>
+                  </div>
+                  <div class="col-md-7 contact-section-right-col2-outer-div px-5">
+                      <div class="mb-4">
+                        <h1 class="conatct-me-section-heading">Interested to work together? Let's talk</h1>
+                      </div>
+                      <div class="row contact-section-right-col2-input-boxes mt-3">
+                        <div class="col-md-6">
+                          <input type="text" class="w-100" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                           <input type="text" class="w-100" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="mt-4 contact-section-right-col2-text-area-struture">
+                        <textarea name="address" id="address" rows="6" placeholder="Message"></textarea>
+                      </div>
+                      <div class="d-flex justify-content-end mt-4 contact-section-right-col2-button">
+                       <button type="button" class="btn btn-warning">Send Button</button>
+                      </div>
+                  </div>
+                </div>
+           </div>
+
+
+
+ <!-- ------------------------------------contact me page ends------------------------------------ -->
+<!-- -----------------------copy right section------------------------ -->
+<div class="container m-5">
+  <p class="text-center copy-right">Copyright ©2025 All rights reserved | This template is made with ❤️ by Colorlib</p>
+</div>
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <!-- aos animation link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // animation duration
+        offset: 100, // trigger distance
+      });
+    </script>
+  </body>
+</html>
