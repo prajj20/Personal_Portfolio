@@ -213,6 +213,10 @@
   letter-spacing: normal;
   margin-bottom: 0;
 }
+.circle-shape-info-detail a{
+  color: #f9a825;
+ text-decoration: none;
+}
 .cricle-shape-title-address {
   color: #727070;
   font-weight: 400;
