@@ -98,10 +98,10 @@ const languageUsage = {
   HTML: 95,
   CSS: 85,
   JavaScript: 50,
-  Python: 60,
+  Python: 90,
   Bootstrap: 70,
   SQL: 55,
-  Pandas : 40
+  Pandas : 65
 };
 
 const container = document.getElementById("languageContainer");
